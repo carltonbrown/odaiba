@@ -1,0 +1,10 @@
+name: customers-backend
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'customers/customers-backend/**'
+  pull_request:
+    paths:
+      - 'customers/customers-backend/**'

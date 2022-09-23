@@ -4,4 +4,6 @@ change
 another change
 yet another
 it's another change
-seven
+change line seven
+add line eight
+add line nine

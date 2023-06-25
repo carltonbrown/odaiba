@@ -9,7 +9,7 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎  Your repository is ${{ github.repository }}."
-      - run: echo "🔎  Your event ref is ${{ github.event.ref }}."
+      - run: echo "🔎  Your event action type is is ${{ github.event.action }}."
       - run: echo "🔎  Your base ref is ${{ github.base_ref }}."
       - run: echo "🔎  Your github ref is ${{ github.ref }}."
       - run: echo "🔎  Your github SHA is ${{ github.sha }}."

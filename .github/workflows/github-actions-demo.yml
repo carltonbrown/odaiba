@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: Pull request became ${{github.event.pull_request.mergeable }} for ${{ github.event.number }} in ${{ github.event.repository }}
 on:
   pull_request:
 jobs:

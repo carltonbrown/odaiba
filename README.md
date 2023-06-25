@@ -1,5 +1,5 @@
 # odaiba
-their experimental trash heap
+everyone's experimental trash heap
 change in main
 from the ssh key
 foob line 5

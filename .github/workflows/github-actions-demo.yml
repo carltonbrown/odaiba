@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by ${{ github.event_name }}:${{ github.event.action}}"
+      - run: echo "🔎  This pull request was created at ${{ github.event.pull_request.created_at }}."
       - run: echo "🔎  This pull request has github.event.pull_request.mergeable of ${{ github.event.pull_request.mergeable }}."
-      - run: echo "🔎  This pull request has github.pull_request.mergeable of ${{ github.pull_request.mergeable }}."
-      - run: echo "🔎  This pull request has github.mergeable of ${{ github.mergeable }}."
       - run: echo "🔎  This pull request has github.event.mergeable of ${{ github.event.mergeable }}."
+      - run: echo "🔎  This pull request has github.pull_request.mergeable of ${{ github.pull_request.mergeable }}."
       - run: echo "🔎  The base ref is ${{ github.base_ref }}."
       - run: echo "🔎  The head ref is ${{ github.ref }}."
       - run: echo "🔎  The head SHA is ${{ github.sha }}."

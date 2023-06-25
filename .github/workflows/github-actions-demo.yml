@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: Pull request became ${{github.event.pull_request.mergeable }} for ${{ github.event.number }} in ${{ github.event.repository }}
+run-name: Pull request ${{ github.event.number}} in ${{ github.repository }} became mergeable=${{github.event.pull_request.mergeable }}
 on:
   pull_request:
 jobs:

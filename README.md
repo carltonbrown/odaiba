@@ -7,3 +7,4 @@ I'm a line 5 conflict
 I'm a line 6
 8
 9
+10
